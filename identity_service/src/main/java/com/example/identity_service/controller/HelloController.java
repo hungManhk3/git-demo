@@ -7,6 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/hello")
     public String hello(){
+<<<<<<< HEAD
         return "Hello from Alice to Bob";
+=======
+        return "Hello from Alice & Bob"
+>>>>>>> origin/main
     }
 }
