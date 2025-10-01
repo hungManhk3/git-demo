@@ -9,4 +9,8 @@ public class HelloController {
     public String hello(){
         return "Hello from Alice to Bob";
     }
+    @GetMapping("/hello/{name}")
+    public String helloName(@PathVariable String name) {
+        return "Hello " + name + "! Welcome to Git!";
+    }
 }
